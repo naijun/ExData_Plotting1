@@ -12,7 +12,7 @@ plot1 <- function(){
   
   ## launch the png graphic device and plot the histogram 
   png(file="plot1.png", width=480, height=480)
-  with(data,hist(Global_active_power, main="Global Active Power", col=2, 
+  with(data,hist(Global_active_power, main="Global Active Power", col="red", 
                   xlab="Global Active Power (kilowatts)"))
   dev.off()
   
