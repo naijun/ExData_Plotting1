@@ -37,5 +37,4 @@ plot4 <- function(){
   
   ## close the device
   dev.off()
-  
 }

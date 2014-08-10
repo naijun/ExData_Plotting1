@@ -18,5 +18,4 @@ plot2 <- function(){
   plot(x,data$Global_active_power, ylab="Global Active Power (kilowatts)",
        xlab = "", type="l")
   dev.off()
-  
 }
